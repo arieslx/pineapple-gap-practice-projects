@@ -5,7 +5,7 @@
 using namespace std;
 
 //TODO:?
-//vector arieslx$ clang++ -std=c++17 -stdlib=libc++ -O3 sorted_vector_and_unsorted_vector.cpp; ./a.out; rm a.out
+//clang++ -std=c++17 -stdlib=libc++ -O3 sorted_vector_and_unsorted_vector.cpp; ./a.out; rm a.out
 
 template <typename T>
 void print_all(const T& S)
