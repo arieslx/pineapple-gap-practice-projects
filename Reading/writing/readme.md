@@ -1,0 +1,1 @@
+https://github.com/yzy1996/English-Writing 英文论文的小tips，粗读了一遍，有些可以借鉴，遇到更好的内容再把这个链接替换掉。
