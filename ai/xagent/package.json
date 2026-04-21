@@ -1,0 +1,30 @@
+{
+  "name": "xagent",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/entrypoint/cli.js",
+  "bin": {
+    "xagent": "dist/entrypoint/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/entrypoint/cli.ts",
+    "build": "tsc",
+    "start": "node dist/entrypoint/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
+    "dotenv": "^17.4.2",
+    "ink": "^7.0.0",
+    "react": "^19.2.5"
+  }
+}
